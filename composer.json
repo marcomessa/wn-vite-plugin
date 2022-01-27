@@ -1,0 +1,26 @@
+{
+  "name": "marcomessa/wn-vite-plugin",
+  "type": "winter-plugin",
+  "minimum-stability": "dev",
+  "description": "Plugin required for Vite TailwindCss Theme",
+  "keywords": [
+    "winter",
+    "vite",
+    "tailwind",
+    "tailwindcss",
+    "starter",
+    "blank",
+    "theme"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marco Messa",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "composer/installers": "~1.0"
+  }
+}

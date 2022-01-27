@@ -1,0 +1,11 @@
+{% if devServerIsRunning %}
+<script type="module" src="http://localhost:3000/@vite/client"></script>
+<script type="module" src="http://localhost:3000/resources/js/app.js"></script>
+{% else %}
+    {% for css in cssPaths %}
+        <link rel="stylesheet" href="{{ ('build/' ~ css)|theme }}">
+    {% endfor %}
+    {% put scripts %}
+        <script type="module" src="{{ ('build/' ~ jsPath)|theme }}"></script>
+    {% endput %}
+{% endif %}
