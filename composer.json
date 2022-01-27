@@ -2,6 +2,7 @@
   "name": "marcomessa/wn-vite-plugin",
   "type": "winter-plugin",
   "minimum-stability": "dev",
+  "version": "1.0.0",
   "description": "Plugin required for Vite TailwindCss Theme",
   "keywords": [
     "winter",
